@@ -75,6 +75,9 @@ function verifyCrops() {
         messageHeadElement.innerHTML = "";
         messageElement.innerHTML = message;
     }
+
+    // Allows the createRecommendation function to run 
+    cropsComplete = true;
 }
 
 // Verify months text box entry is between 1 and 12 
